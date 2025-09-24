@@ -1,0 +1,20 @@
+image,label,confidence,parents
+s3://rekog-labels-ryan-12345/images/car.jpg,Car,99.7,Transportation;Vehicle
+s3://rekog-labels-ryan-12345/images/car.jpg,Jaguar Car,99.7,Car;Transportation;Vehicle
+s3://rekog-labels-ryan-12345/images/car.jpg,Transportation,99.7,
+s3://rekog-labels-ryan-12345/images/car.jpg,Vehicle,99.7,Transportation
+s3://rekog-labels-ryan-12345/images/car.jpg,Limo,82.75,Car;Transportation;Vehicle
+s3://rekog-labels-ryan-12345/images/car.jpg,Sports Car,75.61,Car;Transportation;Vehicle
+s3://rekog-labels-ryan-12345/images/cat.jpg,Abyssinian,98.7,Animal;Cat;Mammal;Pet
+s3://rekog-labels-ryan-12345/images/cat.jpg,Animal,98.7,
+s3://rekog-labels-ryan-12345/images/cat.jpg,Cat,98.7,Animal;Mammal;Pet
+s3://rekog-labels-ryan-12345/images/cat.jpg,Mammal,98.7,Animal
+s3://rekog-labels-ryan-12345/images/cat.jpg,Pet,98.7,Animal
+s3://rekog-labels-ryan-12345/images/dog.jpg,Animal,100.0,
+s3://rekog-labels-ryan-12345/images/dog.jpg,Canine,100.0,Animal;Mammal
+s3://rekog-labels-ryan-12345/images/dog.jpg,Dog,100.0,Animal;Canine;Mammal;Pet
+s3://rekog-labels-ryan-12345/images/dog.jpg,Mammal,100.0,Animal
+s3://rekog-labels-ryan-12345/images/dog.jpg,Pet,100.0,Animal
+s3://rekog-labels-ryan-12345/images/dog.jpg,Puppy,100.0,Animal;Canine;Dog;Mammal;Pet
+s3://rekog-labels-ryan-12345/images/dog.jpg,Grass,89.58,Plant
+s3://rekog-labels-ryan-12345/images/dog.jpg,Plant,89.58,

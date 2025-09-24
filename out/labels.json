@@ -1,0 +1,162 @@
+[
+  {
+    "image": "s3://rekog-labels-ryan-12345/images/car.jpg",
+    "labels": [
+      {
+        "name": "Car",
+        "confidence": 99.7,
+        "parents": [
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "name": "Jaguar Car",
+        "confidence": 99.7,
+        "parents": [
+          "Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "name": "Transportation",
+        "confidence": 99.7,
+        "parents": []
+      },
+      {
+        "name": "Vehicle",
+        "confidence": 99.7,
+        "parents": [
+          "Transportation"
+        ]
+      },
+      {
+        "name": "Limo",
+        "confidence": 82.75,
+        "parents": [
+          "Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "name": "Sports Car",
+        "confidence": 75.61,
+        "parents": [
+          "Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "s3://rekog-labels-ryan-12345/images/cat.jpg",
+    "labels": [
+      {
+        "name": "Abyssinian",
+        "confidence": 98.7,
+        "parents": [
+          "Animal",
+          "Cat",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "name": "Animal",
+        "confidence": 98.7,
+        "parents": []
+      },
+      {
+        "name": "Cat",
+        "confidence": 98.7,
+        "parents": [
+          "Animal",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "name": "Mammal",
+        "confidence": 98.7,
+        "parents": [
+          "Animal"
+        ]
+      },
+      {
+        "name": "Pet",
+        "confidence": 98.7,
+        "parents": [
+          "Animal"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "s3://rekog-labels-ryan-12345/images/dog.jpg",
+    "labels": [
+      {
+        "name": "Animal",
+        "confidence": 100.0,
+        "parents": []
+      },
+      {
+        "name": "Canine",
+        "confidence": 100.0,
+        "parents": [
+          "Animal",
+          "Mammal"
+        ]
+      },
+      {
+        "name": "Dog",
+        "confidence": 100.0,
+        "parents": [
+          "Animal",
+          "Canine",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "name": "Mammal",
+        "confidence": 100.0,
+        "parents": [
+          "Animal"
+        ]
+      },
+      {
+        "name": "Pet",
+        "confidence": 100.0,
+        "parents": [
+          "Animal"
+        ]
+      },
+      {
+        "name": "Puppy",
+        "confidence": 100.0,
+        "parents": [
+          "Animal",
+          "Canine",
+          "Dog",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "name": "Grass",
+        "confidence": 89.58,
+        "parents": [
+          "Plant"
+        ]
+      },
+      {
+        "name": "Plant",
+        "confidence": 89.58,
+        "parents": []
+      }
+    ]
+  }
+]
